@@ -1,0 +1,27 @@
+{
+    "name": "dot/navigations",
+    "description": "The navigations plugin of dot/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "dot",
+        "navigations"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "dot/platform": "0.4.*",
+        "dot/posts": "dev-master",
+        "dot/categories": "dev-master",
+        "dot/tags": "dev-master",
+        "dot/pages": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dot\\Navigations\\": "src"
+        }
+    }
+}

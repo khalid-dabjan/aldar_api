@@ -1,0 +1,27 @@
+{
+    "name": "dot/posts",
+    "description": "The posts plugin of dot/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "dot",
+        "posts"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "dot/platform": "0.4.*",
+        "dot/seo": "*",
+        "dot/tags": "*",
+        "dot/blocks": "*",
+        "dot/categories": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dot\\Posts\\": "src"
+        }
+    }
+}

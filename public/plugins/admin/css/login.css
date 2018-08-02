@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "font towl";
+    src: url("fonts/twol/ge_ss_two_light.ttf") format("truetype"), url("fonts/twol/ge_ss_two_light.otf") format("opentype");
+}
+
+body {
+    font: 15px "font towl", Arial, Helvetica, sans-serif !important;
+}
+
+* {
+    outline: none !important;
+}
+
+.remember_text {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.middle-box h1 {
+    font-size: 44px;
+    letter-spacing: -3px;
+}
+
+.dark-theme .nav-header {
+    background: url("patterns/header-profile-dark.png") no-repeat;
+}
+
+.dark-theme #side-menu {
+    background: #2b2b2b;
+}
+
+.dark-theme #side-menu li.active, .dark-theme #side-menu li a:hover {
+    background: #3e3e3e !important;
+    border-color: #1e8cbe;
+}
+
+.dark-theme .text-navy {
+    color: #1e8cbe;
+}
+
+.dark-theme .btn-primary {
+    background: #1e8cbe;
+    border-color: #1e8cbe;
+}
+
+.dark-theme .badge-primary {
+    background: #1e8cbe;
+}
+
+.dark-theme .chosen-container-active.chosen-with-drop .chosen-single {
+    border-color: #1e8cbe;
+}
+
+.dark-theme .chosen-container-single .chosen-search input {
+    border-color: #1e8cbe;
+}
+
+.dark-theme .chosen-container .chosen-results li.highlighted {
+    background: #1e8cbe;
+}
+
+.dark-theme .chosen-rtl.chosen-container-single-nosearch .chosen-search, .chosen-rtl .chosen-drop {
+    border: none;
+    box-shadow: 0px 1px 2px #1e8cbe;
+    border: 1px solid #1e8cbe;
+}
+
+.dark-theme.mini-navbar .nav-header {
+    background: #1e8cbe;
+}
+
+.dark-theme .progress-bar {
+    background: #1e8cbe;
+}
+
+.dark-theme input.form-control:focus, .dark-theme textarea.form-control:focus {
+    border-color: #1e8cbe !important;
+}
+
+.dark-theme .icheckbox_square-green {
+    background-image: url(plugins/iCheck/blue@2x.png) !important;
+}
+
+.dark-theme .icheckbox_square-green.checked {
+    background-image: url(plugins/iCheck/blue@2x.png) !important;
+}

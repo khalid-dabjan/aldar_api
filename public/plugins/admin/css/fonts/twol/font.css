@@ -1,0 +1,9 @@
+/*arabic number font-family: "font towl"*/
+@font-face {
+    font-family: "font towl";
+    src: url(ge_ss_two_light.ttf) format("truetype"), url(ge_ss_two_light.otf) format("opentype");
+}
+
+body {
+    font: 13px "font towl", Arial, Helvetica, sans-serif;
+}
